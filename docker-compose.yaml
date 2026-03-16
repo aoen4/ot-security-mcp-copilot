@@ -1,25 +1,18 @@
 services:
   backend:
     image: jobmathenge/ot-sec-platform-backend:latest
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
     ports:
       - "8001:8001"
     environment:
       - DATABASE_URL=sqlite+aiosqlite:////app/ot_assets.db
       - DEBUG=False
     volumes:
-      - ./backend/ot_assets.db:/app/ot_assets.db
-      - ./backend/ot_platform.db:/app/ot_platform.db
+      - aeon_assets_db:/app
     networks:
       - aeon-net
 
   frontend:
     image: jobmathenge/ot-sec-platform-frontend:latest
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     environment:
@@ -33,3 +26,6 @@ services:
 networks:
   aeon-net:
     driver: bridge
+
+volumes:
+  aeon_assets_db:
