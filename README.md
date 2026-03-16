@@ -45,13 +45,13 @@ Deploy the full stack using Docker Compose. We recommend running a "down" comman
 
 **Clean existing state (Optional but recommended):**
 ```bash
-docker-compose down
+docker compose down
 ```
 *This stops and removes any existing containers, networks, and images associated with the project.*
 
 **Start the Platform:**
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 *The `-d` flag runs the containers in **detached mode**, allowing the platform to operate in the background.*
 
@@ -62,7 +62,7 @@ docker-compose up -d
 For experienced users, you can clone and launch the entire platform with a single command:
 
 ```bash
-git clone https://github.com/jobmathenge/ot-security-mcp-copilot.git && cd ot-security-mcp-copilot && docker-compose down && docker-compose up -d
+git clone https://github.com/jobmathenge/ot-security-mcp-copilot.git && cd ot-security-mcp-copilot && docker compose down && docker compose up -d
 ```
 
 ---
