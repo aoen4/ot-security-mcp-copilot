@@ -10,9 +10,17 @@ Follow these steps to deploy the AeOn4.0 platform in your environment.
 
 ### 📋 Prerequisites
 
-Before you begin, ensure you have the following installed on your system:
-- **Git**: For cloning the repository.
-- **Docker & Docker Compose**: For containerized deployment (Recommended).
+Before you begin, ensure you have the following installed on your system. If you haven't installed them yet, you can use the commands below (Standard for Linux/Ubuntu):
+
+#### 1. Install Git
+```bash
+sudo apt update && sudo apt install git -y
+```
+
+#### 2. Install Docker & Docker Compose
+```bash
+curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
+```
 
 ---
 
