@@ -228,4 +228,4 @@ High-precision filtering across secure industrial zones.
 
 ## ⚖️ License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+Copyright © 2026 Job Mathenge. This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
