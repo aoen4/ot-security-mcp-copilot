@@ -1,12 +1,24 @@
-# 🛡️ AeOn4.0 — AI-Native OT Security & Operations
+# AeOn4.AI | Industrial OT Security Copilot
 
-AeOn4.0 is a next-generation **AI-native OT Security & Operations Platform**. Engineered for mission-critical industrial environments, it combines deep asset heuristics with high-fidelity visual auditing to secure the Purdue Model at scale.
+![AeOn4.AI Banner](snips/01_dashboard_desktop_dark.png)
+
+## 🌐 Vision & Purpose
+**AeOn4.AI** is a premier Operational Technology (OT) security intelligence platform. Engineered for the complex demands of modern industrial environments, it provides unified visibility, automated risk assessment, and AI-driven insights to secure critical infrastructure and advanced production lines.
+
+---
+
+## 🛠️ Platform Core Capabilities
+
+*   **Semantic Intent Routing**: Deterministic execution via sub-millisecond pattern matching.
+*   **Dual-Mode Industrial UI**: Engineered for operational clarity in diverse lighting.
+*   **Deep Asset Discovery**: Automated metadata and MAC-based behavioral fingerprinting.
+*   **Model Context Protocol (MCP)**: Secure tool execution via `FastMCP`.
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to deploy the AeOn4.0 platform in your environment.
+Follow these steps to deploy the AeOn4.AI platform in your environment.
 
 ### 📋 Prerequisites
 
@@ -27,7 +39,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
 ### 🛠️ Step-by-Step Installation
 
 #### 1. Clone the Repository
-Download the latest version of the AeOn4.0 source code from GitHub:
+Download the latest version of the AeOn4.AI source code from GitHub:
 ```bash
 git clone https://github.com/jobmathenge/ot-security-mcp-copilot.git
 ```
@@ -67,165 +79,76 @@ git clone https://github.com/jobmathenge/ot-security-mcp-copilot.git && cd ot-se
 
 ---
 
-## 🧭 Dynamic Intelligence Tours
+## 🎨 Universal Theme & Device Adaptability
 
-AeOn4.0 features interactive, mission-focused tours to get you acquainted with the Industrial Intelligence Engine. Use the table below to identify the launch controls in each operational mode.
+AeOn4.AI follows a **Theme-Aware Responsive Design** philosophy. The platform seamlessly transitions between Light and Dark modes while maintaining pixel-perfect clarity across Desktop, Tablet, and Mobile form factors.
 
-| Feature | Industrial Glass (Light) | Stealth Architecture (Dark) |
-| :--- | :---: | :---: |
-| **System-Wide Onboarding**<br/>Complete perimeter walk-through. | ![Tour Light](snips/tour_launch_light.png) | ![Tour Dark](snips/tour_launch_dark.png) |
-| **Intelligence Fleet Tour**<br/>Specialized Copilot audit tour. | ![Copilot Tour Light](snips/copilot_tour_launch_light.png) | ![Copilot Tour Dark](snips/copilot_tour_launch_dark.png) |
+### 4 Theme Comparison (Desktop)
+Experience professional aesthetics in any lighting condition.
 
----
-
-## 📽️ Operational Visual Tour
-
-AeOn4.0 features two high-fidelity themes tailored for distinct operational environments. Each section below is optimized to remain on a single page during A4 printing.
-
-<div style="page-break-inside: avoid;">
-
-### 01. Mission Control Dashboard
-**Objective**: Unified fleet visibility and risk posture assessment.  
-Real-time summary of fleet heuristics and zone health.
-
-| Industrial Glass (Light) | Stealth Architecture (Dark) |
+| Dark Mode | Light Mode |
 | :---: | :---: |
-| ![Dashboard - Light](snips/01_dashboard_light.png) | ![Dashboard - Dark](snips/01_dashboard_dark.png) |
-
-</div>
+| <img src="snips/01_dashboard_desktop_dark.png" width="100%"> | <img src="snips/01_dashboard_desktop_light.png" width="100%"> |
 
 ---
 
-<div style="page-break-inside: avoid;">
+## 🚀 Intelligent Core Modules
 
-### 02. Purdue Reference Architecture
-**Objective**: Hierarchical compliance and structural integrity.  
-Assets organized into operational strata (Level 0 - Level 3).
+### 1. Mission Control Dashboard
+The operational centerpiece of AeOn4.AI. Monitor real-time KPIs, zone integrity, and system criticality through a high-fidelity interface optimized for command centers.
 
-| Industrial Glass (Light) | Stealth Architecture (Dark) |
+| Desktop | Tablet | Mobile |
+| :---: | :---: | :---: |
+| <img src="snips/01_dashboard_desktop_dark.png" width="100%"> | <img src="snips/01_dashboard_tablet_dark.png" width="100%"> | <img src="snips/01_dashboard_mobile_dark.png" width="100%"> |
+
+### 🏭 Comprehensive OT Asset Management
+Inventory management meets deep-dive intelligence. Track every PLC, HMI, and Sensor with automated discovery and granular detail views.
+
+| Theme Comparison | Asset Details View |
 | :---: | :---: |
-| ![Purdue - Light](snips/02_purdue_light.png) | ![Purdue - Dark](snips/02_purdue_dark.png) |
+| <img src="snips/02_assets_desktop_dark.png" width="100%"> | <img src="snips/06_asset_details_desktop_dark.png" width="100%"> |
+| *Dark Mode Inventory* | *Dark Mode Details* |
 
-</div>
+### ⚠️ Dynamic Risk & Exposure Analysis
+Quantify industrial risk through automated vulnerability mapping and prioritised mitigation strategies.
 
----
-
-<div style="page-break-inside: avoid;">
-
-### 03. AI Copilot (Natural Language Intel)
-**Objective**: Task execution and intelligence research.  
-High-performance **Semantic Router** for deterministic tool execution.
-
-| Industrial Glass (Light) | Stealth Architecture (Dark) |
+| Perspective | Analysis View |
 | :---: | :---: |
-| ![Copilot - Light](snips/03_copilot_home_light.png) | ![Copilot - Dark](snips/03_copilot_home_dark.png) |
+| <img src="snips/03_risk_desktop_dark.png" width="100%"> | <img src="snips/03_risk_tablet_dark.png" width="100%"> |
+| *High-Resolution Analytics* | *Tablet Monitoring* |
 
-</div>
+### 🕸️ Network Topology & Purdue Stratification
+Visualize your industrial perimeter through immersive 3D Force-Directed graphs or the structured Purdue Model (L0-L4) stratification.
 
----
+| Topology Graph | Purdue Model (Dark) | Purdue Model (Light) |
+| :---: | :---: | :---: |
+| <img src="snips/04_topology_desktop_dark.png" width="100%"> | <img src="snips/08_purdue_desktop_dark.png" width="100%"> | <img src="snips/08_purdue_desktop_light.png" width="100%"> |
 
-<div style="page-break-inside: avoid;">
+### 🤖 AI Copilot (LLM Integrated)
+Natural language interaction with your OT environment. Query asset health, isolation protocols, or incident histories instantly.
 
-### 04. Intelligence Resiliency (Stub Mode)
-**Objective**: Operational continuity without LLM connectivity.  
-Maintains 100% tool functionality via local semantic routing.
-
-| Industrial Glass (Light) | Stealth Architecture (Dark) |
+| Desktop Interaction | Mobile Assistant |
 | :---: | :---: |
-| ![Stub - Light](snips/15_copilot_no_api_light.png) | ![Stub - Dark](snips/15_copilot_no_api_dark.png) |
-
-</div>
+| <img src="snips/05_copilot_desktop_dark.png" width="100%"> | <img src="snips/05_copilot_mobile_dark.png" width="100%"> |
 
 ---
 
-<div style="page-break-inside: avoid;">
+## 📱 Mobile-First Excellence
+AeOn4.AI is a touch-optimized companion for the factory floor.
+- **Micro-Interactions**: Optimized for one-handed operation.
+- **Priority Alerts**: Critical vulnerabilities surfaced instantly.
+- **On-the-go Editing**: Full asset edit capabilities from your mobile device.
 
-### 05. Technical Intelligence Research
-**Objective**: Rapid cross-vendor vulnerability discovery.  
-Specialized multi-vendor aggregations and research stacks.
+| Dashboard | Assets | Details | Edit Flow |
+| :---: | :---: | :---: | :---: |
+| <img src="snips/01_dashboard_mobile_dark.png" width="100%"> | <img src="snips/02_assets_mobile_dark.png" width="100%"> | <img src="snips/06_asset_details_mobile_dark.png" width="100%"> | <img src="snips/07_asset_edit_mobile_dark.png" width="100%"> |
 
-| Industrial Glass (Light) | Stealth Architecture (Dark) |
-| :---: | :---: |
-| ![Siemens Intel Light](snips/16_copilot_siemens_vulnerabilities_light.png) | ![Siemens Intel Dark](snips/16_copilot_siemens_vulnerabilities_dark.png) |
 
-</div>
 
----
-
-<div style="page-break-inside: avoid;">
-
-### 06. Risk Summary & Aggregations
-**Objective**: Automated zone-based risk profiling.  
-Visualizing risk distribution across operational zones.
-
-| Industrial Glass (Light) | Stealth Architecture (Dark) |
-| :---: | :---: |
-| ![Risk - Light](snips/04_copilot_risk_light.png) | ![Risk - Dark](snips/04_copilot_risk_dark.png) |
-
-</div>
+## 📜 Licensing & Attribution
+- **License**: Apache License 2.0
+- **Authorship**: Developed with precision by **JobMathenge** (© 2026).
+- **GitHub**: [Official Repository](https://github.com/jobmathenge/ot-security-mcp-copilot)
 
 ---
-
-<div style="page-break-inside: avoid;">
-
-### 07. Fleet Inventory & Onboarding
-**Objective**: Lifecyle management and rapid asset onboarding.  
-Real-time validation, editing, and rapid bulk-onboarding capabilities.
-
-| Bulk Intelligence (Light) | Detail Management (Dark) |
-| :---: | :---: |
-| ![Import](snips/10_bulk_import_light.png) | ![Edit](snips/11_edit_asset_dark.png) |
-
-</div>
-
----
-
-<div style="page-break-inside: avoid;">
-
-### 08. Specialized Asset Heuristics
-**Objective**: Behavioral and vulnerability auditing.  
-Individual asset views with branding and vulnerability mapping.
-
-| Vendor Branding (Dark) | Vulnerability Stack (Light) |
-| :---: | :---: |
-| ![Details](snips/13_asset_detail_dark.png) | ![Stack](snips/12_asset_detail_vulnerability_light.png) |
-
-**Security Deep-Dive (Siemens PLC Example)**
-| Stealth Architecture (Dark) | Industrial Glass (Light) |
-| :---: | :---: |
-| ![Siemens - Dark](snips/14_siemens_vulnerability_dark.png) | ![Siemens - Light](snips/14_siemens_vulnerability_light.png) |
-
-</div>
-
----
-
-<div style="page-break-inside: avoid;">
-
-### 09. Interactive Network Topology
-**Objective**: Communication path verification and switch mapping.  
-High-precision filtering across secure industrial zones.
-
-| Industrial Glass (Light) | Stealth Architecture (Dark) |
-| :---: | :---: |
-| ![Topology - Light](snips/06_topology_filtered_light.png) | ![Topology - Dark](snips/06_topology_filtered_dark.png) |
-
-</div>
-
----
-
-## 🛠️ Platform Core Capabilities
-
-*   **Semantic Intent Routing**: Deterministic execution via sub-millisecond pattern matching.
-*   **Dual-Mode Industrial UI**: Engineered for operational clarity in diverse lighting.
-*   **Deep Asset Discovery**: Automated metadata and MAC-based behavioral fingerprinting.
-*   **Model Context Protocol (MCP)**: Secure tool execution via `FastMCP`.
-
----
-
-**AeOn4.0 — Unified Industrial Security. Engineered for the Edge.**
-
----
-
-## ⚖️ License
-
-Copyright © 2026 Job Mathenge. This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+*Securing the next generation of industrial innovation.*
