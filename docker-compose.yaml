@@ -18,10 +18,10 @@ services:
     ports:
       - "8001:8001"
     environment:
-      - DATABASE_URL=sqlite+aiosqlite:////app/ot_assets.db
+      - DATABASE_URL=sqlite+aiosqlite:////app/data/ot_assets.db
       - DEBUG=False
     volumes:
-      - aeon_assets_db:/app
+      - aeon_assets_db:/app/data
     networks:
       - aeon-net
 
