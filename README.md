@@ -147,7 +147,7 @@ AeOn4.AI is a touch-optimized companion for the factory floor.
 
 ## 📜 Licensing & Attribution
 - **License**: Apache License 2.0
-- **Authorship**: Developed with precision by **JobMathenge** (© 2026).
+- **Authorship**: Developed with precision by **aeon4.ai** (© 2026).
 - **GitHub**: [Official Repository](https://github.com/jobmathenge/ot-security-mcp-copilot)
 
 ---
